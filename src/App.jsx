@@ -1,13 +1,13 @@
-import './App.css'
+import { Header } from "./Components/Header";
+import { Main } from "./Components/Main";
 
-function App() {
+export function App() {
  
 
   return (
     <>
-      
+      <Header />
+      <Main></Main>
     </>
   )
 }
-
-export default App
