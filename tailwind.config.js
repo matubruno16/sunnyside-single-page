@@ -21,7 +21,11 @@ export default {
       fontFamily:{
         'Barlow': ['Barlow', 'sans-serif'],
         'Fraunces': ['Fraunces', 'serif'],
-      }
+      },
+      screens:{
+        'tablet' : '700px',
+        'desktop': '1440px',
+      },
     },
   },
   plugins: [],
